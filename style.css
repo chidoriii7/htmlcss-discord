@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.login {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px
+}
+
+.debug .topside {
+    background-color: #3161E0;
+    padding: 20px 0px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.debug section {
+    padding: 32px 0px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pinkcontainer {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+
+.front-text {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.central-text {
+    margin-top:  25px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.downloadmac {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.open {
+    background-color: #23272A;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+
+ .central-content {
+    background-image: url(./img/jumbo.png);
+    padding: 30px;
+    background-size: cover;    
+}
+
+.central-content .pinkcontainer {
+    min-height: 400px;
+}
+
+.container-2 {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+.col-66 {
+    width: calc(2 * 100% / 3);
+}
+
+.frog {
+ 
+}
+
+.gray {
+    background-color: lightgray;
+}
+
+
+
+.bottomside {
+    background-color: darkslategray;
+    padding: 20px 0px;
+    color: white;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.btn-white {
+    background-color: white;
+}
+
+.open-browser {
+    background-color: #23272A;
+    color: white;
+}
+
+.widget-title {
+    color: #3161E0;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.widgetmenu li {
+    display: block;
+}
+
+.widget-social .widget-title {
+    font-size: 32px;
+}
+
+.btn-blue {
+    background-color: #3161E0;
+    color: black;
+}
